@@ -1,1 +1,1 @@
-Designed a portfolio for a web resume for easy access through link from anywhere. Which demnstrate HTML, CSS, JS and Cloud skills along with DevOps. Will host this on AWS through a CDN which will help as CDN + WAF.
+Designed a portfolio as a web resume for easy access through link from anywhere. Which demnstrate HTML, CSS, JS and Cloud skills along with DevOps. Will host this on AWS through a CDN which will help as CDN + WAF.
