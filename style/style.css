@@ -32,8 +32,8 @@
     padding: 20px;
     
     p {
-      font-size: 1rem;
-      letter-spacing: .2rem;
+      font-size: 1.1rem;
+      letter-spacing: .1rem;
     }
   }
   
@@ -53,32 +53,83 @@
     text-align: center;
   }
 
-  .job-title{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
 
-  
-  .company{
-    text-align: left;
-  }
-  .duration{
-    text-align: right;
-  }
-  
   .work-experience {
     padding: 20px;
-  }
+    }
 
   .experience-title {
-      margin-top: 50px;
+      margin-bottom: 30px;
+      border-bottom: 1px;
+      padding-bottom: 15px;
+      margin: 1px;
+      padding: 5px;
+
+  }  
+
+.company{
+      display: flex;
+      justify-content: space-between;
+
+      h5 {
+        font-size: 17.6px;
+        font-style: italic;
+        padding-left: 0px;
+        margin: 10px;
+
+      }
+
+  }
+  
+  .company1{
+    display: flex;
+    justify-content: space-between;
+
+
+    h5 {
+      font-size: 17.6px;
+      font-style: italic;
+      padding-left: 0px;
+      margin: 10px;
+
     }
-    
-    .experience-summary {
-      margin-top: 30px;
+
+}
+
+  .company h3{
+      font-size: 1.5rem;
+  }
+  
+
+
+
+.job-role{
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+}
+     
+.job-title{
+    display: flex;
+    font-size: 1.1rem;
+    margin-top: 2px;
+}
+   
+   /*.duration{
+    font-size: 1rem;
+    text-align: right;
+    }*/
+.experience-summary {
+      margin-top: 1px;
       margin-bottom: 50px;
-    }
+      text-align: justify;
+
+      detail{
+        padding-left: 50px;
+      }
+}    
+
+   
     
     p {
       font-size: 1rem;
@@ -86,6 +137,53 @@
     }
 
 
-  
+  /*Education and Certification*/
 
+.Education {
+  padding: 20px;
+  nav-left: 10px;
+
+
+  li {
+    text-align: left;
+    padding: 10px;
+  }
+
+}
+
+.edu {
+
+  h2{
+    text-align: left;
+  }
+  text-align: left;
+  margin-left: 50px;
+}
+
+
+.Certification {
+  padding: 10px;
+  nav-right: 10px;
+
+  li {
+    text-align: right;
+    padding: 10px;
+    orientation: left;
+    marker: right;
+  }
+}
+
+.cert {
+  h2 {
+    text-align: right;
+  }
+  text-align: right;
+  margin-right: 50px;
+
+  rtl {
+
+    direction: rtl;
+
+  }
+}
   
